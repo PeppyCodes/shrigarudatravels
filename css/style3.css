@@ -2,6 +2,10 @@ body {
 	background: #ffdd00;
 	font-family: 'MisoRegular';
 }
+h2 span.sp-top, h2 span.sp-bottom{
+	color: #ffdd00 !important;
+	text-shadow: none;
+}
 h1.main,p.demos {
 	-webkit-animation-delay: 8s;
 	-moz-animation-delay: 8s;
