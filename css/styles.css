@@ -984,7 +984,7 @@ Nav Overlay
 .overlay nav {
     position: relative;
     top: 50%;
-    height: 60%;
+    height: 200px;
     text-align: center;
     font-size: 54px;
     -webkit-transform: translateY(-50%);
@@ -1008,13 +1008,18 @@ Nav Overlay
     margin-right: 0px
 }
 .overlay ul li i {
-    display: block;
+    display: none;
     margin-bottom: 10px;
     font-size: 40px;
 }
+.overlay ul li i.show{
+    display: block;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
 .overlay ul li a {
     display: block;
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
     min-width: 190px;
     border: 2px solid #fff;
     border-radius: 3px;
