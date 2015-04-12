@@ -503,7 +503,7 @@ Buttons
     text-align: center;
     margin-top: 10px;
 }
-.download-btn:hover, .learn-btn:focus, .download-btn:focus {
+.download-btn:hover, .download-btn:focus {
     border-color: #73d0da;
     color: #73d0da;
     text-decoration: none;
