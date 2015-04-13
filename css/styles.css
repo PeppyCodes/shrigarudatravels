@@ -596,7 +596,7 @@ div.container.site-name {
 }
 div.site-name h1 {
     margin: auto;
-    font-family: 'Orbitron', sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 div.site-name h1 a {
